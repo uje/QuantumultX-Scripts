@@ -1,2 +1,4 @@
-host-suffix, apple.com, direct
+host-suffix, jsdelivr.net, proxy
+host-suffix, cloudflare.com, proxy
+host-suffix, cloudfront.net, proxy
 host-suffix, bugly.qq.com, reject
