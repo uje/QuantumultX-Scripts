@@ -1,7 +1,5 @@
 
 var str = ($response.body);
-$done({body: `haha`});
-return;
 
 str = str.match(/:&#x2f;&#x2f;(\S*)"}/)[1].replace(/&#x2f;/g, '/').replace(/&amp;/g, '&').split("\"")[0]
 let opener = str.indexOf("m.tb.cn") != -1 ? "taobao://" + str: ($response.body)
