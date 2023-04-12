@@ -1,5 +1,7 @@
 
 var str = ($response.body);
+$done({body: `haha`});
+return;
 
 str = str.match(/:&#x2f;&#x2f;(\S*)"}/)[1].replace(/&#x2f;/g, '/').replace(/&amp;/g, '&').split("\"")[0]
 let opener = str.indexOf("m.tb.cn") != -1 ? "taobao://" + str: ($response.body)
@@ -13,7 +15,7 @@ if (str.indexOf("m.tb.cn") != -1) {
     $.notify(``,"", "🔗点击打开链接", "https://"+str)
 }
 
-$done({body: `<script>setTimeout(function(){ location.href='https://${str}'}, 500);</script>`});
+$done({body: `<script>location.href='https://${str}';</script>`});
 
 function cmp() {
     _isQuanX = typeof $task != "undefined"
