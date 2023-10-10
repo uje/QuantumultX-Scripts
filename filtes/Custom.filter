@@ -2,3 +2,8 @@ host-suffix, jsdelivr.net, proxy
 host-suffix, cloudflare.com, proxy
 host-suffix, cloudfront.net, proxy
 host-suffix, bugly.qq.com, reject
+
+host-suffix, apple.com, direct
+host-suffix, cdn-apple.com, direct
+host-suffix, icloud.com, direct
+host-suffix, icloud-content.com, direct
