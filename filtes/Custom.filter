@@ -3,6 +3,7 @@ host-suffix, cloudflare.com, proxy
 host-suffix, cloudfront.net, proxy
 
 host-suffix, bugly.qq.com, reject
+host-suffix, api-unionid.meituan.com, reject
 
 host-suffix, apple.com, direct
 host-suffix, cdn-apple.com, direct
