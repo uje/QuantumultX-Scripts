@@ -1,3 +1,5 @@
+hostname = *.jd.com
+
 ^https://api.m.jd.com/client.action?functionId=welcomeHome url reject-200
 
 # > jingdongdushu
