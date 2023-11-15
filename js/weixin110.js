@@ -6,12 +6,12 @@ let opener = str.indexOf("m.tb.cn") != -1 ? "taobao://" + str: ($response.body)
 console.log(str);
 const $ = new cmp()
 
-if (str.indexOf("m.tb.cn") != -1) {
-    $.notify(``, "", "🛍️点击打开淘宝", opener)
-} {
-    console.log('====', str);
-    $.notify(``,"", "🔗点击打开链接", "https://"+str)
-}
+// if (str.indexOf("m.tb.cn") != -1) {
+//     $.notify(``, "", "🛍️点击打开淘宝", opener)
+// } {
+//     console.log('====', str);
+//     $.notify(``,"", "🔗点击打开链接", "https://"+str)
+// }
 
 $done({body: `<script>location.href='https://${str}';</script>`});
 
