@@ -1,2 +1,3 @@
 host-suffix, xboxlive.com, direct
-host-suffix, xbox.*.microsoft.com, direct
+host-suffix, microsoft.com, direct
+host-suffix, playfabapi.com, direct
