@@ -1,4 +1,4 @@
-host-suffix, xboxlive.com, direct
-host-suffix, microsoft.com, direct
-host-suffix, s-microsoft.com, direct
-host-suffix, playfabapi.com, direct
+host-suffix, xboxlive.com, xbox
+host-suffix, microsoft.com, xbox
+host-suffix, s-microsoft.com, xbox
+host-suffix, playfabapi.com, xbox
