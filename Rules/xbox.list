@@ -2,3 +2,6 @@ host-suffix, xboxlive.com, xbox
 host-suffix, microsoft.com, xbox
 host-suffix, s-microsoft.com, xbox
 host-suffix, playfabapi.com, xbox
+
+[mitm]
+hostname = *.xboxlive.com, *.microsoft.com, *.s-microsoft.com, *.playfabapi.com
