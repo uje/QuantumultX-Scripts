@@ -1,8 +1,8 @@
-host-suffix, kugou.com, tme
-host-suffix, fanxing.com, tme
-host-suffix, kugou.net, tme
-host-suffix, kuwo.cn, tme
-host-suffix, kgidc.cn, tme
-host-suffix, tmeoa.com, tme
+host-suffix, kugou.com, TME代理
+host-suffix, fanxing.com, TME代理
+host-suffix, kugou.net, TME代理
+host-suffix, kuwo.cn, TME代理
+host-suffix, kgidc.cn, TME代理
+host-suffix, tmeoa.com, TME代理
 
 
