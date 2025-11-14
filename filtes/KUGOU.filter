@@ -1,8 +1,8 @@
-host-suffix, kugou.com, AUTO_DEBUG
-host-suffix, fanxing.com, AUTO_DEBUG
-host-suffix, kugou.net, AUTO_DEBUG
-host-suffix, kuwo.cn, AUTO_DEBUG
-host-suffix, kgidc.cn, AUTO_DEBUG
-host-suffix, tmeoa.com, AUTO_DEBUG
+host-suffix, kugou.com, tme
+host-suffix, fanxing.com, tme
+host-suffix, kugou.net, tme
+host-suffix, kuwo.cn, tme
+host-suffix, kgidc.cn, tme
+host-suffix, tmeoa.com, tme
 
 
